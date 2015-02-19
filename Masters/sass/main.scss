@@ -1,0 +1,38 @@
+$roboto: 'Roboto', sans-serif;
+
+@mixin arrows() {
+    border-top: 7px solid transparent; 
+    border-bottom: 7px solid transparent; 
+    border-left: 7px solid #333;   
+}
+body { 
+    background: url(bg.jpg);	
+    font: normal 14px/20px $roboto; 
+    color: #53565f; 
+
+	a { 
+        text-decoration: none; 
+    }
+}
+#container { 
+    width: auto; 
+    max-width: 980px; 
+    background: #fff; 
+    margin: 30px auto 0 auto; 
+    min-width: 260px; 
+}
+.clearfix { 
+    clear:both;	
+}
+.arrow-left { 
+    @include arrows;
+    float: right; 
+    width: 0; 
+    height: 0; 
+    margin: 16px 0 0 0; 
+    display:inline-block; 
+    position: relative; 
+    left: -45px; 
+}
+.mobile-nav { display: none; width: 100%; top: 0; left: 0; right: 0; max-height: 40px; height: auto; padding: 15px 0; z-index: 300; background-color: #508242; position: relative; z-index: 1000; border-bottom: 1px solid #fff; }
+.bar { width:26px; margin: 0px 13px; height: 3px; margin-bottom: 3px; background: #fff; cursor:pointer;}
