@@ -1,0 +1,41 @@
+.navlinks {
+	min-width: 184px;
+}
+
+nav ul {
+	background: #67a556;
+	height: 75px;
+	width: 100%;
+}
+
+#wrapper {
+	border: 1px solid #ccc;	
+}
+
+.solution-text {
+	font-size: 12px;
+}
+
+.correct, .correct:focus, .correct-select {
+	background: #d8fbd4;
+}
+
+.error, .error:focus, .error-select {
+	background: #f8d8dc;
+}
+
+label {
+	display: block;
+	margin: 5px 0 5px 5px;
+}
+
+.close {
+	display: none;
+}
+
+.closer {
+	text-align: right;
+	margin-top: 4px;
+	display: block;
+	cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.pre-nav { border-bottom: 20px solid #3b8134; }
+.blue { border-top: 8px solid #025472; margin-top: -8px; }
+#bannertext { width: 35%; }
+#container { padding-bottom: 25px; }
+.headline { line-height: 36px; }
+	.solutions-box .arrow-left { float: right; width: 0; height: 0; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-left: 5px solid #117aa4; margin: 6px 0 0 0; display:inline-block; position: relative; left: -24px; }
+
+.demo-box .arrow-left { margin: 3px 0 0 0; left: 15px; }
+
+	.headlineSEM { color: #333333; font-family: 'Roboto Slab'; font-size: 34px; font-weight: 500; margin-bottom: 15px; text-align: center; }
+	.content .headlineSEM { margin: 25px auto; width: 100%; }
+	.subhead { font: 300 20px/30px "Roboto", sans-serif; margin: 0 auto 65px; text-align: center; width: 87%; }
+	#column1 { float: left; padding: 0 5% 0 2%; width: 55%; }
+		.feature { margin-bottom: 30px; padding-right: 20px; }
+			.feature-text { display: table-cell; font-size: 16px; line-height: 22px; }
+			.feature-title { font-weight: 600; margin-bottom: 5px; font-size: 18px; }
+			.icon { background: url(../../Masters/sprite.png); width:88px; float: left; margin-right: 20px; }
+			.icon1 { height: 63px; }
+			.icon2 { background-position: 0 -63px; height: 56px; }
+			.icon3 { background-position: 0 -119px; height: 71px; }
+			.icon4 { background-position: 0 -190px; height: 46px; }
+			.icon5 { background-position: 0 -236px; height: 80px; }
+	#column2 { color: #52565F; float: right; font-size: 16px; max-width: 347px; width: 37%; }
+	#column2 img { width: 100%; max-width: 347px; display:block; margin-right: auto; margin-left: auto; }
+
+.demo-box { margin: 0; width: 90%; padding: 30px 5%; background-color: #026791; color: #fff; font-weight: 300; font-size:24px; }
+	.demo-text { float: left; width: 60%; line-height: 42px; }
+	.demo-link a, .overlay-trigger { float: right; background: #FCD400; background:-moz-linear-gradient(top, #FCD400 0%, #EEB500 100%); background:-o-linear-gradient(top, #FCD400 0%, #EEB500 100%); background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #FCD400), color-stop(100%, #EEB500)); border:1px solid #d9a102; color: #333333; position:relative; z-index: 100; box-shadow:2px 2px 2px rgba(0, 0, 0, 0.2), inset 0px 1px 2px rgba(255, 255, 255, 0.2); max-width:205px; border-radius:3px; cursor:pointer; color: #333; font-weight: 500; font-style: normal; font-size: 16px; padding: 10px 60px 10px 50px; }
+	.demo-link a img, .overlay-trigger img { position: relative; top: 2px; left: 10px; }
+		.demo-link a:hover, .overlay-trigger:hover { text-decoration: none; background: #FCD400; }
+		
+/* TABLE AREA ELEMENTS */
+.table-area { margin: 80px auto; width: 96%; padding: 80px 0 0 0; border-top: 1px solid #ddd; }
+	.table-area .headline { margin-bottom: 20px; }
+	.table, #ball_table { display: table; border-collapse: collapse; color: #333; width: 96%; max-width: 860px; margin: 20px auto 30px auto;	}
+	.col-row { display: table-row; border-bottom: 1px solid #e4e4e4; width: 100%; height: 36px; }
+		.no-border { border-bottom: 0; }
+		.col-row .col-cell:first-child { padding-right: 60px; padding-left: 10px; }
+	.col-cell { display: table-cell; line-height: 36px; min-width: 140px; padding: 0; font-size: 14px; }
+		.dot { background: #81c342; border-radius: 250px; display: block; height: 16px; margin: 0 auto; position: relative; top: 2px; width: 16px; }
+		.blue-cell, .green-cell { color: #fff; height: 43px; line-height: 43px; text-align: center; background: #006595; max-height: 47px; }
+		.green-cell { background: #419639; }
+		.col-cell img { display: block; margin: 15px auto 0px auto; width: 80%; }
+		.logo-cell { border: 1px solid #DCDDDE; margin-bottom: -17px; padding-bottom: 10px;	}
+		.gray-dot { background: #babbbb; border-radius: 250px; display: block; height: 16px; margin: 0 auto; position: relative; top: 4px; width: 16px; }
+		.right-gray, .left-gray { background: #dcddde; max-height: 33px; padding: 0; margin: 0; }
+		.right-gray { border-right: 2px solid #fff;	}
+		.left-gray { border-left: 2px solid #fff; }
+	.col-cell.thinner { min-width: 110px; }
+	
+.wo-area { width: 96%; margin: 50px auto; }
+	.wo-area .title { font: 300 24px/24px "Roboto Slab", serif; color: #439539; padding: 0 10px 10px 10px; border-bottom: 1px solid #ddd; margin-bottom: 15px; }
+	.wo-area .text { padding: 0 10px; }
+	.list { float: left; width: 35%; padding-left: 10%; margin: 30px 0; }
+	.list li { list-style: none; background: url(../../Masters/dot.png) left center no-repeat; padding-left: 20px; font-size: 16px; font-style: italic; line-height: 28px; }
+	
+.solutions-box { background: #f0eee5; width: 82%; padding: 5%; margin: 50px auto 25px auto; }
+	.solutions-header { padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px dotted #6d6f74; }	
+	#solutions-header-box { float: left; width: 60%;}
+	.solutions-title { color: #0079a6; font: 300 30px/36px 'Roboto Slab', 'Myriad Pro', serif; max-width: 95%; margin-bottom: 10px; }
+	.solutions-sub { font-size: 16px; }
+	#learnmore { width: 33%; max-width: 235px; padding: 3%; float: right; background: #c6c3b4; }
+	.learn-text { margin-bottom: 5px; }	
+	#learnmore a { background: #00abe8; color: #fff; text-decoration: none;	padding: 1% 5%; width: 75%; text-transform: uppercase; font-size: 12px; display: block; cursor:pointer; }
+	#learnmore a:hover { opacity: 0.7; }
+	.icon-group { width: 24.33%; padding: 0 5% 0 3%; float: left; min-height: 90px; display: table-cell; }
+	.solution-text { font: 400 16px/20px 'Roboto', sans-serif; color: #0079a6;	margin-top: -3px; display: table-cell; }
+	.solution-icon { width: 53px; height: 46px; float: left; margin-right: 12px; background: url(../../Masters/solution-icons.png); }
+		#ta-icon { background-position: -53px 0; }
+		#em-icon { background-position: -106px 0; }
+		#hcm-icon { background-position: -159px 0; }
+		#fs-icon { background-position: 0 -46px; }
+		#op-icon { background-position: -53px -46px; }
+		#pm-icon { background-position: -106px -46px; }
+		#rs-icon { background-position: -159px -47px; }
+		#retires-icon { background-position: 0 -91px; }
+		#es-icon { background-position: -53px -91px; }
+		#is-icon { background-position: -106px -91px; }	

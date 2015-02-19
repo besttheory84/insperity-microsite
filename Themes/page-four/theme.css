@@ -1,0 +1,14 @@
+.pre-nav { border-bottom: 20px solid #3b8134; }
+.blue { border-top: 8px solid #025472; margin-top: -8px; }
+#bannertext { width: 35%; }
+#container { padding-bottom: 25px; }
+.left-side { position: relative; }
+
+#content { margin: 120px auto; width: 920px; }
+.resource { width: 21%; margin: 0 2% 25px 2%; float: left; max-width: 212px; min-height: 525px; }
+.resource img { width: 100%; max-width: 192px; margin-bottom: 10px; }
+.resource a { color: #0079A6; text-decoration: none; border: 0; font-weight: 500; }
+	.resource a:hover { color: #333; }
+.author { display: block; font: 500 14px/14px "Roboto", sans-serif; padding: 5px 0 0 0; text-align: left; }
+.date { font: 600 14px/14px "Roboto", sans-serif; padding: 5px 0; text-align: left; }
+.resource p { font: 400 14px/20px "Roboto", sans-serif; }

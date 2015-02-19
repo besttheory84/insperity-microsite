@@ -1,0 +1,51 @@
+@media all and (max-width: 1020px) {
+	.right-side { margin-top: 0; }
+	#banner { background-position: 260px 0; }	
+	nav { margin-left: 0; }
+	.pre-nav { border-left: 0; }
+	nav li { width: 25%; }
+	#bannertext { width: 70%; }
+	.jpglogo { display: none; }
+	.svglogo { display: block; }
+}
+
+@media all and (max-width: 860px) {
+	#banner { background-position: 170px 0; }	
+}
+
+@media all and (max-width: 780px) {
+	.left-side { width: 96%; float: none; max-width: none; margin-left: auto; margin-right: auto; padding-right: 0; }	
+	.right-side { width: 100%; float: none; max-width: none; margin-left: auto; margin-right: auto; }
+	.right-side .module { width: 46%; margin-left: 2%; margin-right: 2%; float: left; }
+	.arrow-left { display: none; }
+}
+
+@media all and (max-width: 740px) {
+	#banner { background-position: 60px 0; }	
+	.mobile-nav { display: block; }
+	height { height: 18px; }
+	body { padding: 0; }
+	#container { margin-top: 0; }
+	nav { display: none; }
+	.blue a, .link a { border-left: 0; border-right: 0; line-height: 40px; }
+	.link { border-top: 0; margin-top: 0; }
+	.blue, .link { height: 40px; }
+}
+
+@media all and (max-width: 660px) {
+	.call, .call a { float: none; width: 100%; text-align: center; margin: 20px auto 0; }
+	header { height: auto; padding: 20px 3%; }
+	.svglogo { width: 100%; margin: 0 0 10px 0; }
+	.svglogo img { width: 90%; max-width: 187px; display: block; margin: 0 auto; }
+	#banner { background-image: none; height: auto; padding: 50px 5%; } 
+	#bannertext { width: 100%; text-align: center; max-width: none; margin-top: 0; position: static; font-size: 30px; line-height: 42px;  }
+}
+
+@media all and (max-width: 580px) {
+	.right-side .module { width: 96%; float: none; }
+	.arrow-left { display: inline-block; }	
+}
+
+@media all and (max-width: 360px) {
+	.arrow-left { display: none; }	
+}

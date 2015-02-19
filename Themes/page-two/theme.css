@@ -1,0 +1,26 @@
+.pre-nav { border-bottom: 20px solid #3b8134; }
+.blue { border-top: 8px solid #025472; margin-top: -8px; }
+#bannertext { width: 28%; }
+.column { width: 46%; float: left; margin: 0 2% 30px 2%; background: #efefef; padding-bottom: 10px; }
+	#column1 .title { color: #fff; padding: 12px 6%; background: #006595; font-size: 16px; font-family: "Roboto Slab", serif; }
+	#column2 .title { color: #fff; padding: 12px 6%; background: #439539; font-size: 16px; font-family: "Roboto Slab", serif; }
+	.column .item { margin: 0 6%; padding: 15px 0; border-bottom: 1px solid #ddd; color: #333; }
+	.column .item.no-border { border-bottom: 0; }
+.headline.green { font: 300 24px/24px "Roboto Slab", serif; color: #439539; }
+.numbers { display: table; margin-bottom: 30px; }
+	.row { display: table-row; margin-bottom: 20px; }
+	.cell { display: table-cell; width: 65%; padding-right: 20px; font: 400 16px/24px "Roboto", sans-serif; }
+		.cell.blue-cell { width: 7%; padding: 0 2% 0 0; font: 400 24px/24px "Roboto", sans-serif; color: #006595; }
+		.cell.blue-cell span { display: block; text-align: right; width: 100%; position: relative; top: 5px; }
+.equation { font: 400 30px/30px "Roboto Slab", serif; color: #006595; margin-bottom: 30px; }
+.equation sup { color: #439539; font-size: 20px; vertical-align: top; }
+.table { background: #f0eee5; color: #333; font-size: 18px; margin-bottom: 15px; }
+	.table .row { border-bottom: 1px solid #ddd; }
+	.cell.green-cell { font: 400 18px/18px "Roboto Slab", sans-serif; color: #439539; }
+	.table .cell { border-right: 1px solid #ddd; border-bottom: 1px solid #ddd; padding: 0; width: auto; }
+		.table .cell.no-border { border-right: 0; }
+		.table .cell div { padding: 8% 26.3%; }
+		.table .cell.green-cell div { padding: 8% 10%; }
+.text.blurb { padding-bottom: 15px; line-height: 20px; }
+	
+		

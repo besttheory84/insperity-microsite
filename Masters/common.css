@@ -1,0 +1,106 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure,  footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video { margin:0; padding:0; border:0; outline:0; vertical-align:baseline; background:transparent; }
+
+
+/* Body elements */
+body { background: url(bg.jpg);	font: normal 14px/20px 'Roboto', sans-serif; color: #53565f; }
+	a { text-decoration: none; }
+	#container { width: auto; max-width: 980px; background: #fff; margin: 30px auto 0 auto; min-width: 260px; }
+	.clearfix { clear:both;	}
+	.arrow-left { float: right; width: 0; height: 0; border-top: 7px solid transparent; border-bottom: 7px solid transparent; border-left: 7px solid #333; margin: 16px 0 0 0; display:inline-block; position: relative; left: -45px; }
+	.mobile-nav { display: none; width: 100%; top: 0; left: 0; right: 0; max-height: 40px; height: auto; padding: 15px 0; z-index: 300; background-color: #508242; position: relative; z-index: 1000; border-bottom: 1px solid #fff; }
+	.bar { width:26px; margin: 0px 13px; height: 3px; margin-bottom: 3px; background: #fff; cursor:pointer;}
+
+
+/* Header elements */
+header { height: 49px; padding: 30px 3%; }
+	.jpglogo, .svglogo { height: 49px; float: left;	margin-right: 4%; }
+	.svglogo { display: none; }
+	.call, .call a { text-align: right; color: #0079a6; font: 500 24px/49px 'Roboto', arial; float: right; }
+
+
+/* Banner elements */
+#banner { width: 90%; height: 300px; background: #00aae7 url(banner.jpg); padding: 0px 5%; position: relative; z-index: 100; }
+	#bannertext { width: 38%; float: left; max-width: 450px; font: 300 40px/48px "Roboto Slab", serif; color: #fff; position: absolute; top: 50%; margin-top: -100px; }
+	
+
+/* Navigation elements */
+nav { height: auto; top left no-repeat; margin: -32px 0 0 -20px; position: relative; }
+	.fixer { position: absolute; height: 8px; width: 5%; background: #3b8134; right: 0; top: 32px; }
+	.pre-nav {width: 100%; height: 0; border-top: 20px solid transparent; border-left: 20px solid transparent; border-bottom: 20px solid #025472; max-width: 960px; }
+	#nav { background: #439539; width: auto;}
+	nav li { width: auto; float: left; max-height: 75px; list-style-type: none; text-align: center; cursor:pointer; color: #fff; font: normal 18px/75px 'Roboto', arial; text-decoration: none; }
+	nav li a { display: block; color: #fff; }
+	.link { margin-top: -8px; border-top: 8px solid #3b8134; }
+	.link a { background: #439539; border-right: 1px solid #3b8134; border-left: 1px solid #50aa44; padding: 0 20px; color: #fff; } 
+		.link a:hover { background: #48a63f; }
+	.blue { background: #0079a6; }
+		.blue a { color: #fff; padding: 0 20px; border-left: 1px solid #0079a6; border-right: 1px solid #006194; }
+	.no-border a { border-right: 0 !important; padding-right: 25px; }
+		
+		
+/* Main content elements */
+#main-content { width: 94%; padding: 30px 3%; }
+	.left-side { float: left; width: 60%; padding-right: 2%; }
+		.headline { color: #0079a6; padding: 10px 0 25px; font: 300 30px/30px "Roboto Slab", serif; }
+		.text { font: 400 16px/28px 'Roboto', sans-serif; color: #53565f; padding-bottom: 40px; }
+		.expander { border: 1px solid #dddddd; margin-bottom: 20px; }
+			.expander .title-bar, .expander .text { width: 92%; padding: 20px 4%; }
+			.expander .title { font: 300 24px/24px "Roboto Slab", serif; color: #439539; float: left; }
+			.expander .text { border-top: 1px solid #dddddd; padding-top: 20px; font-size: 16px; line-height: 28px; }
+			.expander .opener { background: url(open.png) 0 -25px; width: 25px; height: 25px; float: right; cursor:pointer; }
+			.expander .opener.open { background-position: 0 0; }
+			.expander .text-box { display: none; }
+			.expander .text-box.open { display: block; }
+		.left-side ul { margin: 0 0 0 50px; }
+		.slider-holder { background: #f0eee5; padding: 25px 3%; border: 1px solid #ddd; margin-bottom: 25px; }
+			.slider-holder .title { text-align: center; color: #439539; font: 400 18px/18px "Roboto Slab", serif; padding-bottom: 30px; } 
+			.half { width: 40%; padding: 0 5%; float: left; }
+				.half .title { padding: 40px 0 20px 0; }
+				.calculated { text-align: center; font: 400 24px/24px "Roboto Slab", serif; color: #006595; }
+			.ui-widget-content { background: #00aae7; }
+			.ui-corner-all { border-radius: 10px; border: 2px solid #006595; width: 98%; }
+			.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default { background: #82c341; border: 1px solid #70a838; }
+			.ruler { position: relative;} 
+				.inch { float: left; color: #333; width: 19.6%; }
+				.small { float: right; position: absolute; right: 0; }
+				.line { border-left: 2px solid #006595; height: 8px; margin-left: 4px; }
+	.right-side { float: right; width: 38%; max-width: 340px; position: relative; z-index: 200; margin-top: -355px; }
+		.module { margin-bottom: 30px; }
+		.form-holder { background: #006595; padding: 25px 7%; width: 86%; color: #fff; }
+			.form-holder .title { font: 300 18px/26px "Roboto Slab", serif; }
+			form { margin: 20px 0; }
+			label { color: #fff; font: normal 16px/20px 'Roboto', arial; }
+			input[type=text], input[type=tel], input[type=email] { width: 94%; padding: 4px 3%; border: 1px solid #ccc; margin: 0 0 14px 0; height: 30px; border-radius: 5px; line-height: 30px; }
+			.submitbutton { background-color: #fcd100; background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fcd100), to(#edb000)); background: -webkit-linear-gradient(top, #fcd100, #edb000); background: -moz-linear-gradient(top, #fcd100, #edb000); background: -ms-linear-gradient(top, #fcd100, #edb000); border-radius: 3px; color: #333; margin: 15px 0 0 3px; border: 1px solid #d9a102; box-shadow: inset 0px 2px 4px rgba(255,255,255,0.5); cursor: pointer; }
+				.submitbutton:hover { background: #fcd100; }
+				input[type=submit] { width: 95%; padding: 10px 0; text-align: center; color: #333; font: 500 18px/18px 'Roboto', arial; background: none; border: 0; cursor: pointer; }
+				input:focus { border-color: #5d8cba; box-shadow: 0px 0px 3px rgba(0,0,0,0.2); }
+				.correct, .correct:focus { border: 1px solid #b9c793; box-shadow: inset 0px 0px 14px rgba(232, 250, 184, 0.6); !important color: #374a03; background: #fff url(checkmark.svg) 98% 7px no-repeat; }
+				.error, .error:focus { border: 1px solid #ba6f64; box-shadow: inset 0px 0px 14px rgba(251, 196, 188, 0.6) !important; color: #b71d07; background: #fff url(ex.svg) 98% 7px no-repeat; }
+				.correct-select, .correct-select:focus { box-shadow: inset 0px 0px 14px rgba(232, 250, 184, 0.6); }
+				.error-select, .error-select:focus { box-shadow: inset 0px 0px 14px rgba(251, 196, 188, 0.6); }
+		.quote-holder { background: #f0eee5; padding: 25px 7%; width: 86%; color: #333; font: 300 24px/32px "Roboto", sans-serif; }
+			.quote { padding-bottom: 25px; }
+			.author { font: 400 16px/16px "Roboto", sans-serif; text-align: center; }
+				.author span { color: #006595; }
+		.benefits { background: #439539; padding: 25px 7%; width: 86%; color: #fff; font: 400 24px/32px "Roboto", sans-serif; }
+			.benefits .title { font-weight: 300; font-size: 24px; padding-bottom: 15px; border-bottom: 1px dashed #fff; margin-bottom: 15px; }
+			.benefits .text { color: #fff; padding-bottom: 20px; }
+				.benefits .text ul { font-weight: 300; margin-left: 15px; }
+
+
+/* Overlay elements */
+.overlay { display: none; }
+.close { background: url("http://www.insperity.com/cs/insperity/img/icon-sprite.png") no-repeat scroll -80px -65px rgba(0, 0, 0, 0); color: #333333; float: right; font-family: arial,sans-serif; font-weight: bold; height: 30px; margin: -30px -30px -20px 0; text-align: right; width: 31px; cursor:pointer; }
+				
+				
+/* Footer elements */
+footer { max-width: 980px; padding: 50px; color: #343741; font: normal 10px/14px 'Roboto', arial; margin: 0 auto; }
+
+#pageslide {  display: none; position: absolute; position: fixed; top: 0; height: 100%; z-index: 999999; width: 260px; padding: 0; background-color: #333; color: #FFF; -webkit-box-shadow: inset 0 0 5px 5px #222; -moz-box-shadow: inset 0 0 5px 5px #222; box-shadow: inset 0 0 5px 5px #222; }
+
+
+/* Transitions */
+nav li a, .opener, #learnmore a, .resource img, .resource a { transition: 0.3s; -o-transition: 0.3s; -ms-transition: 0.3s; -moz-transition: 0.3s; -webkit-transition: 0.3s; }
+
+.radiowrap { display: none; }
